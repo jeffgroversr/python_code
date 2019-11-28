@@ -9,10 +9,10 @@ print('writetoweb')
 
 time.sleep(5)
 ##########################TWITTER######################
-CONSUMER_KEY = 'p7fg9MEglE4CtEajOPdkdcUnG'
-CONSUMER_SECRET = '9iouaVZjpsILpBp706hXiWaHHFgkt4qmFUDY3tVDAFgLi7x14i'
-ACCESS_TOKEN = '2297016128-bQirsSnuXUrOc48IzJzKCIvIpwYW5ePXG5T4qhc'
-ACCESS_SECRET = '0gMwEFa5H6oq8sW3Misufd7zA5oV0z2UOORn1yex7syir'
+CONSUMER_KEY = 'KEY'
+CONSUMER_SECRET = 'SECRET'
+ACCESS_TOKEN = 'ACCESS-TOKEN'
+ACCESS_SECRET = 'ACCESSSECRET'
 
 import tweepy as ty
 import random
