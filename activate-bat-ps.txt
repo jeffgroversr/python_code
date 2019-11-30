@@ -1,0 +1,4 @@
+1. Right click on PowerShell icon
+2. "Run as Administrator"
+3. go to your virtual enviornment you created and cd into the scripts folder.
+4. Type '.\Activate.ps1"
