@@ -1,0 +1,5 @@
+1. pip install virtualenv
+2. py -m venv mydjango
+3. cd into folder to scripts
+4. .\Activate.bat
+5. deactivate
