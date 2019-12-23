@@ -1,0 +1,7 @@
+>cmd/k ipconfig/all This is used to determine:
+
+-Windows IP Configuration
+-Ethernet adapter Ethernet:
+-Wireless LAN adapter Wi-Fi:
+-Wireless LAN adapter Local Area Connection* 2:
+-Ethernet adapter Bluetooth Network Connection:
