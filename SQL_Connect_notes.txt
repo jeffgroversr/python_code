@@ -1,0 +1,28 @@
+'''
+I ran into the same error a few days ago! Thankfully, I found the answer.
+You see, the problem is that pyodbc comes in a .whl (wheel) file/package. So, as a result, you have to pip install it.
+Pip installing is a very tricky process, so please be careful. The steps are:-
+Step1. Go to C:/Python (whatever version you are using)/Scripts. Scroll down. If you see a file named pip.exe, then that means that you are in the right folder. Copy the path.
+Step2. In your computer, search for Environment Variables. You should see an option labeled 'Edit the System Environment Variables'. Click on it.
+Step3. There, you should see a dialogue box appear. Click 'Environment Variables'. Click on 'Path'. Then, click 'New'. Paste the path that you copied earlier.
+Step4. Click 'Ok'.
+Step5. Open the Windows File Explorer. Shift + Right Click wherever your pyodbc.whl file is installed. Select 'Open Command Window Here' from the dropdown menu. Type in 'pip install py', then click tab and the full file name should fill in. Then, press Enter, and you're ready to go! Now you shouldn't get the error again!!!
+
+This is what I did for SQL Server 2012:
+Right click on Windows PowerShell and selected Run Windows as Administrator
+
+1.  Clicked on "Start"
+2. Queried in the "search all files" text box: "Environment Variables"
+3. Selected: Edit enviornment variables for your account.
+4. Clicked on "New"
+5. Pasted the link where the pip.exe file is located: C:\Users\Admin\AppData\Local\Programs\Python\Python36\mydjango\Scripts
+6. Navigated to the Scripts folder and executed this command: pip install py
+PS C:\users\admin\appdata\local\programs\python\python36\mydjango\scripts> pip install py
+Collecting py
+  Downloading py-1.8.1-py2.py3-none-any.whl (83 kB)
+Installing collected packages: py
+Successfully installed py-1.8.1
+7. When to my project in Windows PowerShell and ran my: python SQL_Connect.py code
+8. This worked!
+
+'''
