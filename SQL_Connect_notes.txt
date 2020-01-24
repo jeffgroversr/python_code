@@ -24,5 +24,6 @@ Installing collected packages: py
 Successfully installed py-1.8.1
 7. When to my project in Windows PowerShell and ran my: python SQL_Connect.py code
 8. This worked!
+9. Note. The next time I attempted to run this I had to go to: https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads and download the 64 C++ version based on this communication @ https://github.com/mkleehammer/pyodbc/issues/663. I downloaded x64: vc_redist.x64.exe for my machine.
 
 '''
